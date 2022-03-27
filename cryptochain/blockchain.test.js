@@ -94,7 +94,7 @@ describe('Blockchain', ()=>{
                     newChain.chain[2].hash = 'some-fake-hash';
                     blockchain.replaceChain(newChain.chain);
                 });
-                it('does not replace the chain', () =>{
+                it('does not replace the chain', () => {
                     expect(blockchain.chain).toEqual(originalChain);
                 });
                 it('logs an error', () => {
