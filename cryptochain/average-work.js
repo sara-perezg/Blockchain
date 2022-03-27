@@ -1,4 +1,3 @@
-const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const Blockchain = require('./blockchain');
 const fs = require('fs');
 
