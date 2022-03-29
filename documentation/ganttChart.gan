@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Blockchain" company="Sara Perez Garcia" webLink="http://" view-date="2022-03-12" view-index="0" gantt-divider-location="832" resource-divider-location="300" version="2.8.6" locale="es_ES">
+    <description><![CDATA[Desarrollo de cryptoconcurrencia con blockchain]]></description>
+    <view zooming-state="default:1" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="680" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="67" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="66" order="2"/>
+        <option id="color.recent"><![CDATA[#ffffcc #ff3333]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Ninguna">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Introducion al Blockchain" meeting="false" start="2022-03-14" duration="6" complete="100" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <task id="11" name="Entender que es la tecnologia blockchain" color="#8cb6ce" meeting="false" start="2022-03-14" duration="2" complete="100" thirdDate="2022-03-29" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="Entender que es la tecnologia cryptoconcurrencia" color="#8cb6ce" meeting="false" start="2022-03-16" duration="2" complete="100" thirdDate="2022-04-08" thirdDate-constraint="0" expand="true">
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="Entender como funciona una red peer-to-peer" color="#8cb6ce" meeting="false" start="2022-03-18" duration="2" complete="100" thirdDate="2022-04-08" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="188" name="Documentacion" meeting="false" start="2022-03-20" duration="66" complete="15" expand="true">
+            <task id="4" name="Redaccion de la documentacion - primer borrador" color="#8cb6ce" meeting="false" start="2022-03-20" duration="9" complete="46" thirdDate="2022-03-29" thirdDate-constraint="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="189" name="Redaccion de la documentacion - segundo borrador" color="#8cb6ce" meeting="false" start="2022-04-25" duration="10" complete="0" thirdDate="2022-03-13" thirdDate-constraint="0" expand="true"/>
+            <task id="196" name="Redaccion de la documentacion - version final" color="#8cb6ce" meeting="false" start="2022-05-18" duration="7" complete="0" thirdDate="2022-04-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="2" name="Set up enviroment, frameworks" color="#8cb6ce" meeting="true" start="2022-03-29" duration="0" complete="0" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="Primera tutoria - presentacion de la documentacion" color="#8cb6ce" meeting="true" start="2022-04-04" duration="0" complete="0" thirdDate="2022-03-04" thirdDate-constraint="0" expand="true">
+            <depend id="49" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="126" name="Segunda tutoria - orientacion y resolucion de dudas" color="#8cb6ce" meeting="true" start="2022-05-05" duration="0" complete="0" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true">
+            <depend id="193" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="128" name="Tercera tutoria - Entrega borrador completo y valoracion" color="#8cb6ce" meeting="true" start="2022-05-26" duration="0" complete="0" thirdDate="2022-02-21" thirdDate-constraint="0" expand="true"/>
+        <task id="129" name="Entrega Final" color="#ff3333" meeting="true" start="2022-06-06" duration="0" complete="0" thirdDate="2022-06-06" thirdDate-constraint="0" expand="true"/>
+        <task id="186" name="Semana santa" color="#ffffcc" meeting="false" start="2022-04-16" duration="9" complete="0" thirdDate="2022-04-16" thirdDate-constraint="0" expand="true">
+            <depend id="189" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="49" name="Desarrollo inicial del blockchain - Blocks, Blockchain, Proof or Work" color="#000000" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-03-04" thirdDate-constraint="0" expand="true">
+            <depend id="45" type="2" difference="0" hardness="Strong"/>
+            <task id="50" name="Creacion de la clase &quot;Block&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="51" name="Desarrollo de metodo para creacion del genesis block" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="52" name="Test metodo genesis block" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="53" name="Desarrollo de metodo &quot;mineBlock()&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="54" name="Test de metodo &quot;mineBlock()&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="55" name="Creacion de la clase &quot;Blockchain&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="56" name="Desarrollo del metodo para la validacion del blockchain &quot;isValidChain()&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="Test del metodo &quot;isValidChain()&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="58" name="Desarrollo del metodo para el reemplazamiento de la cadena &quot;replaceChain()&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="59" name="Test del metodo &quot;replaceChain()&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="60" name="Desarrollo del &quot;Proof of work&quot; del blockchain" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="61" name="Desarrollo del metodo para el ajuste de la dificultad en el minado de bloques" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="62" name="Test para los metodos de proff of work y &quot;adjustDifficulty()&quot;" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="63" name="Implementacion de control para el ataque por &quot;difficulty jump&quot; en la cadena" color="#8cb6ce" meeting="false" start="2022-04-04" duration="2" complete="100" thirdDate="2022-04-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="45" name="API y red p2p" color="#000000" meeting="false" start="2022-04-06" duration="10" complete="23" thirdDate="2022-04-11" thirdDate-constraint="0" expand="true">
+            <task id="46" name="Desarrollo de APIs endpoints" meeting="false" start="2022-04-06" duration="10" complete="28" expand="true">
+                <task id="47" name="lectura de la cadena de bloques" color="#8cb6ce" meeting="false" start="2022-04-06" duration="1" complete="100" thirdDate="2022-04-11" thirdDate-constraint="0" expand="true"/>
+                <task id="48" name="escritura en la cadena de bloques" color="#8cb6ce" meeting="false" start="2022-04-06" duration="1" complete="100" thirdDate="2022-04-11" thirdDate-constraint="0" expand="true">
+                    <depend id="76" type="2" difference="0" hardness="Strong"/>
+                    <depend id="104" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="97" name="lectura de las transacciones" color="#8cb6ce" meeting="false" start="2022-04-12" duration="1" complete="0" thirdDate="2022-02-16" thirdDate-constraint="0" expand="true">
+                    <depend id="96" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="96" name="actualizaciones de las transacciones" color="#8cb6ce" meeting="false" start="2022-04-13" duration="1" complete="0" thirdDate="2022-02-17" thirdDate-constraint="0" expand="true">
+                    <depend id="101" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="101" name="lectura de la transaction pool" color="#8cb6ce" meeting="false" start="2022-04-14" duration="1" complete="0" thirdDate="2022-03-04" thirdDate-constraint="0" expand="true"/>
+                <task id="115" name="minado de transacciones" color="#8cb6ce" meeting="false" start="2022-04-15" duration="1" complete="0" thirdDate="2022-04-16" thirdDate-constraint="0" expand="true"/>
+                <task id="120" name="leer la informacion de la cartera" color="#8cb6ce" meeting="false" start="2022-04-15" duration="1" complete="0" thirdDate="2022-02-17" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="104" name="Red p2p con PubNub y Postman" color="#000000" meeting="false" start="2022-04-07" duration="2" complete="0" thirdDate="2022-04-11" thirdDate-constraint="0" expand="true">
+                <task id="105" name="Iniciar los peers en puertos alternativos" meeting="false" start="2022-04-07" duration="2" complete="0" expand="true"/>
+                <task id="106" name="Sincronizar las cadenas de bloques por la red al minar nuevos bloques" meeting="false" start="2022-04-07" duration="2" complete="0" expand="true"/>
+                <task id="107" name="Sincronizar las cadenas cuando se añaden nuevos peer a la red" meeting="false" start="2022-04-07" duration="2" complete="0" expand="true"/>
+                <task id="108" name="Optimizacion para evitar interacciones redundantes" meeting="false" start="2022-04-07" duration="2" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="76" name="Wallets, Keys y transacciones" color="#000000" meeting="false" start="2022-04-09" duration="2" complete="0" thirdDate="2022-04-11" thirdDate-constraint="0" expand="true">
+            <depend id="89" type="2" difference="0" hardness="Strong"/>
+            <task id="83" name="Crear la clase &quot;Wallet&quot;" color="#8cb6ce" meeting="false" start="2022-04-09" duration="2" complete="0" thirdDate="2022-04-12" thirdDate-constraint="0" expand="true"/>
+            <task id="84" name="Crear las Keys publicas y de cryptoconcurrencia" meeting="false" start="2022-04-09" duration="2" complete="0" expand="true"/>
+            <task id="85" name="Implementacion de la generacion de la firma y verificacion en las transacciones" meeting="false" start="2022-04-09" duration="2" complete="0" expand="true"/>
+            <task id="86" name="Desarrollo de las transacciones y su valicacion" meeting="false" start="2022-04-09" duration="2" complete="0" expand="true"/>
+            <task id="87" name="Evaluacion y control de vulnerabilidades" meeting="false" start="2022-04-09" duration="2" complete="0" expand="true"/>
+            <task id="88" name="Desarrollo de los Test" meeting="false" start="2022-04-09" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="89" name="Transaction pool" color="#000000" meeting="false" start="2022-04-11" duration="1" complete="0" thirdDate="2022-04-11" thirdDate-constraint="0" expand="true">
+            <depend id="97" type="2" difference="0" hardness="Strong"/>
+            <depend id="110" type="2" difference="0" hardness="Strong"/>
+            <task id="91" name="Creacion de la Transaction Pool" meeting="false" start="2022-04-11" duration="1" complete="0" expand="true">
+                <depend id="97" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="110" name="Minado de transacciones" color="#000000" meeting="false" start="2022-04-12" duration="3" complete="0" thirdDate="2022-04-11" thirdDate-constraint="0" expand="true">
+            <task id="112" name="Creacion la clase MinerTransaction" color="#8cb6ce" meeting="false" start="2022-04-12" duration="3" complete="0" thirdDate="2022-04-12" thirdDate-constraint="0" expand="true">
+                <depend id="115" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="118" name="Calculo de los balances en la cartera por el historial en el blockchain" meeting="false" start="2022-04-12" duration="3" complete="0" expand="true">
+                <depend id="120" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="119" name="Evitar transaciones dobles" meeting="false" start="2022-04-12" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="193" name="Posible implementacion de sistema de votos con blockchain" color="#8cb6ce" meeting="false" start="2022-05-05" duration="13" complete="0" thirdDate="2022-04-25" thirdDate-constraint="0" expand="true">
+            <depend id="196" type="2" difference="0" hardness="Strong"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
