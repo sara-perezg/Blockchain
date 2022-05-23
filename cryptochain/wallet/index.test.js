@@ -1,6 +1,6 @@
 const Wallet = require('./index');
 const { verifySignature } = require('../util');
-
+const Transaction = require('./transaction');
 describe('Wallet', ()=>{
 
     let wallet;
