@@ -30,13 +30,6 @@ Switched the hexadecimal character-based difficulty criteria to a more fine-grai
 
 Prevented a potential difficulty jump attack by adding extra validation for the blockchain.
 
-
-------------------
-
-future ones not get accomplished
-
-## section 5
-
 Set up an express API to allow for interaction to the backend through HTTP requests.
 
 Created a GET request to read the blockchain.
@@ -52,9 +45,6 @@ Started peers through alternate ports, and broadcasted chains when blocks were m
 Synchronized chains when new peers connected to the network.
 
 Optimized the implementation to avoid redundant interaction.
-
-
-## section 6
 
 Created the core wallet class for the cryptocurrency.
 
@@ -73,6 +63,12 @@ Allowed transactions to be updated with multiple outputs to efficiently use exis
 Improved the hash function to recognize objects with new properties as changes in incoming data.
 
 Covered edges cases with transaction updates to prevent vulnerabilities.
+
+------------------
+
+future ones not get accomplished
+
+
 
 ## section 7
 
