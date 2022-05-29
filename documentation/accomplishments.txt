@@ -64,14 +64,6 @@ Improved the hash function to recognize objects with new properties as changes i
 
 Covered edges cases with transaction updates to prevent vulnerabilities.
 
-------------------
-
-future ones not get accomplished
-
-
-
-## section 7
-
 Created the core transaction pool with an ability to set transactions.
 
 Handled transaction through the API, and added API-generated transactions to the pool.
@@ -85,6 +77,12 @@ Exposed a new API method to read the transaction pool data.
 Broadcasted transactions as they occurred through the API.
 
 Synced the transaction pool map as a network-dependent object like the blockchain.
+
+------------------
+
+future ones not get accomplished
+
+
 
 ## section 8
 
