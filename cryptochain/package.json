@@ -10,7 +10,8 @@
     "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon index.js"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "reporters": ["./node_modules/jest-html-reporter"]
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "jest": "^23.6.0",
+    "jest-html-reporter": "^3.5.0",
     "nodemon": "^1.18.4"
   },
   "dependencies": {
