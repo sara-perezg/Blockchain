@@ -344,10 +344,10 @@
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="2400"
-     inkscape:window-height="1271"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="2391"
+     inkscape:window-y="119"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata33081">
@@ -401,7 +401,10 @@
        id="g37661"
        transform="translate(4.2763124,-0.86862597)" />
     <g
-       id="g3132">
+       id="g3132"
+       inkscape:export-filename="C:\Users\sarap\Github\Blockchain\documentation\figuras\umlv2.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <rect
          style="fill:#8fbc8f;fill-opacity:0.331808;fill-rule:evenodd;stroke:#8fbc8f;stroke-width:0.29118;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:1.7471, 1.7471;stroke-dashoffset:0;stroke-opacity:1"
          id="rect38546"
